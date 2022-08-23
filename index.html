@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <button onclick="years()">click here to show how many years</button>
+    <p id="hmn"></p>
+    <script>
+        for (var year = 2014; year <= 2050; year++)
+
+        {
+            var d = new Date(year, 0, 1);
+            var t = d.getDay();
+            if (t === 6) {
+
+                console.log(year)
+                
+            }
+        }
+
+    </script>
+</body>
+</html>
